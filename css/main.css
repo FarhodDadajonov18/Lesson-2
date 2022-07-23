@@ -1,0 +1,94 @@
+.first{
+  background-color: rgb(202, 202, 220);
+}
+
+.path path{
+  fill: rgba(131, 131, 131, 0.871);
+}
+
+.second{
+  margin:80px 0px;
+ border-top: 1px solid gray;
+ border-bottom: 1px solid gray;
+}
+
+
+.content{
+  margin-top: 150px;
+}
+
+
+.heading{
+  background-color: rgb(252, 252, 252);
+}
+
+
+.about__list{
+  display: grid;
+  grid-template-columns: repeat(2,2fr);
+  align-items:center;
+}
+
+.about__item{
+  position: relative;
+  line-height: 40px;
+}
+.about__item::before{
+  content: "";
+  position: absolute;
+  background-image: url(../img/check-circle.svg);
+  background-repeat: no-repeat;
+  left: -25px;
+  bottom: -14px;
+  width: 40px;
+  height: 40px;
+
+}
+
+.farhod{
+  border-bottom: 2px solid rgb(79, 73, 245);
+  
+}
+.check{
+  outline: none;
+  background: transparent;
+}
+.link{
+  font-weight: 600;
+}
+
+.trader__img{
+  transform: skew(-12deg);
+}
+
+.before{
+position: relative;
+}
+.aside{
+  position: relative; 
+  margin-bottom: 40px;
+}
+
+.aside::before{
+  content: "";
+  position: absolute;
+  background-image: url(../img/rounded.svg);
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+  left: -50px;
+  bottom: 24px;
+  width: 50px;
+  height: 50px;
+}
+
+.before::before{
+  content: "";
+  position: absolute;
+  background-image: url(../img/code-slash.svg);
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+  left: -50px;
+  bottom: 24px;
+  width: 50px;
+  height: 50px;
+}
